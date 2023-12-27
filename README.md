@@ -1,1 +1,2 @@
 # landing-page-odin
+This Project is one of The Odin Project projects, aim to recreate the design at "desired-outcome.png" some instructions about fonts, colors are in the "colo-and-font.png". This project was given just after the flexbox having been learn. 
