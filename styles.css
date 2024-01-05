@@ -35,9 +35,14 @@ a {
 
 /* right padding and good gap for contents divs */
 .content-1,
-.content-2 {
+.content-2,
+.content-4 {
     padding: 100px 210px;
     gap: 16px
+}
+
+.content-3 {
+    padding: 100px 410px;
 }
 
 .content-1 {
@@ -66,6 +71,7 @@ a {
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
+    border: 0;
     padding: 6px 32px;
     border-radius: 8px;
 }
@@ -101,4 +107,55 @@ a {
     align-items: center;
     width: min-content;
     flex-wrap: wrap;
+}
+
+.content-3 {
+    background-color: #e5e7eb;
+}
+
+.content-3 > p {
+    font-size: 36px;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.content-3 > div {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 62px 102px;
+    border-radius: 8px;
+}
+
+.call-to-action > button {
+    background-color: #3882f6;
+    color: inherit;
+    font-size: 18px;
+    padding: 8px 32px;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.call-main {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 42px;
 }
