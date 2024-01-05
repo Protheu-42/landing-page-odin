@@ -33,16 +33,19 @@ a {
     display: flex;
 }
 
+/* right padding and good gap for contents divs */
+.content-1,
+.content-2 {
+    padding: 100px 210px;
+    gap: 16px
+}
+
 .content-1 {
     display: flex;
     justify-content: space-between;
-    padding: 100px 210px;
     background-color: #1f2937;
     color: #f9faf8;
-    gap: 16px;
 }
-
-
 
 .main-title {
     font-size: 48px;
@@ -65,4 +68,37 @@ a {
     font-weight: bold;
     padding: 6px 32px;
     border-radius: 8px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content-2 > .content-2-title {
+    margin: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    gap: 72px;
+}
+
+
+.cards > div > img {
+    width: 200px;
+    height: 200px;
+}
+
+.cards > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    flex-wrap: wrap;
 }
